@@ -1,0 +1,19 @@
+class Student:
+    def __int__(self,name: str='Azazel',age: int = 0,country: str = 'France')->None:
+        self.name = name
+        self.age = age
+        self.country= country
+
+    def print_data(self)-> None:
+        print(f'Hello! My name is{self.name}.I am{self.age}years old, I from {self.country}.')
+
+
+first_student = Student (country='USA',name='Nick',age=20)
+second_student = Student (  'Kate' , 19 , 'Ukraine' )
+third_student = Student(age=54)
+
+first_student.print.data()
+second_student.print.data()
+third_student.print_data()
+
+
